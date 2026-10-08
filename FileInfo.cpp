@@ -10,18 +10,23 @@ string FileInfo::getName()
 {
     return name;
 }
-
 string FileInfo::getPath()
 {
     return path;
 }
-
 string FileInfo::getExtension()
 {
     return extension;
 }
-
 long long FileInfo::getSize()
 {
     return size;
 }
+void FileInfo::setHash(string h)
+{
+    hash = h;
+}
+string FileInfo::getHash()
+{
+    return hash;
+} //Bhavesh
